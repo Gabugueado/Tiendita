@@ -1,0 +1,1021 @@
+{% extends "base/base.html" %}
+
+
+{% block body %}
+{% include "base/header.html" %}
+<div class="site-wrapper">   
+<div class="hero-area">
+    <div class="banner-content-wrapper hero-slider-wrapper text-white">
+        <div class="banner-content single-slide bg-image" data-bgimage="image/bg-images/home-1/slider-1.jpg" >
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10 col-md-10">
+                        <h3 class="title--sm text-primary" data-animation="fadeInDown" data-duration="1.5s" data-delay=".8s">Best Wine Region</h3>
+                        <h1 class="title--lg" data-animation="fadeInLeft" data-duration="1.5s" data-delay=".8s">Market Seasonal Discounts</h1>
+                        <p class="center-align" data-animation="fadeInLeft" data-duration="1.5s" data-delay=".8s">We are extremely proud to introduce 2012 Duckhorn Vineyards Napa Valley Chardonnay. Purchase 10 bottles of this wine <br> and get 60% off!</p>  
+                        <div class="banner_btn" data-animation="fadeInUp" data-duration="1.5s" data-delay=".8s">
+                            <a href="shop-grid--fullwidth-three.html" class="theme-btn">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-content single-slide bg-image" data-bgimage="image/bg-images/home-1/slider-2.jpg" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10">
+                        <h3 class="title--sm text-primary" data-animation="fadeInDown" data-duration="1.5s" data-delay=".8s">Best Wine Region</h3>
+                        <h1 class="title--lg title-seperator--1 sep-left" data-animation="fadeInLeft" data-duration="1.5s" data-delay=".8s">Discover Our Wines</h1>
+                        <p class="left-align" data-animation="fadeInLeft" data-duration="1.5s" data-delay=".8s">Our friendly wine experts have put their experience and knowledge to good use building our collection of balanced and available wines.</p>  
+                        <div class="banner_btn" data-animation="fadeInUp" data-duration="1.5s" data-delay=".8s">
+                            <a href="shop-grid--fullwidth-three.html" class="theme-btn">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-content single-slide bg-image" data-bgimage="image/bg-images/home-1/slider-3.jpg" >
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-10 col-md-10 text-center">
+                        <h3 class="title--sm text-primary" data-animation="fadeInDown" data-duration="1.5s" data-delay=".8s">Best Quality Products</h3>
+                        <h1 class="title--lg" data-animation="fadeInLeft" data-duration="1.5s" data-delay=".8s">Perfect On Luxury Wine</h1>
+                        <p class="center-align" data-animation="fadeInLeft" data-duration="1.5s" data-delay=".8s">We offer a great variety of wines for every price point and any occasion, from rich and lemony Chardonnay to elegant <br> and creamy brut</p>  
+                        <div class="banner_btn" data-animation="fadeInUp" data-duration="1.5s" data-delay=".8s">
+                            <a href="shop-grid--fullwidth-three.html" class="theme-btn">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="newletter-popup" >
+        <div id="boxes" class="newletter-container">
+         <div id="dialog" class="window">
+         <div id="popup2">
+            <span class="b-close"><span>X</span></span>
+        </div>
+            <div class="box">
+              <div class="newletter-title"><h2>Newsletter</h2></div>
+              <div class="box-content newleter-content">
+                    <label class="newletter-label">Enter your email address to subscribe our notification of our new post &amp; features by email.</label>
+                  <div id="frm_subscribe">
+                      <form name="subscribe" id="subscribe_popup">
+                          <div>
+                             <!-- <span class="required">*</span><span>Enter you email address here...</span>-->
+                             <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail" placeholder="Enter you email address here..."> 
+                             <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
+                           <div id="notification"></div>
+                            <a class="theme-btn-outlined" onclick="email_subscribepopup()"><span>Subscribe</span></a>
+                             
+                          </div>
+                      </form>
+                      <div class="subscribe-bottom">
+                        <input type="checkbox" id="newsletter_popup_dont_show_again">
+                        <label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
+                      </div>
+                  </div><!-- /#frm_subscribe -->
+                </div><!-- /.box-content -->
+         </div>
+        </div>	
+       
+        </div><!-- /.box -->
+        </div>
+<section class="home-welcome section-padding pb-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="welcome__description text-center">
+                    <h3 class="welcome__title--sm">Welcome To Belly</h3>
+                    <h2 class="welcome__title--mid">Who Are The Best</h2>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait.</p>
+                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+                    <div class="welcome_sig-image">
+                        <img src="image/others/signature-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="promo-section section-padding pb-0">
+    <div class="container">
+        <div class="row no-gutters-lg">
+            <div class="col-lg-8 mb-30 mb-lg-0">
+                <div class="promo-details-mini">
+                    <div class="promo-image">
+                        <img src="image/others/promo-product-big.jpg" alt="Promo Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30 mb-lg-0">
+                <div class="promo-details-mini bg-pattern-1">
+                    <div class="promo-content">
+                        <div class="promo-icon">
+                                <img src="image/icons/icon-wine.png" alt="Promo Icon Image">
+                            </div>
+                            <div class="promo-description">
+                                <h2>Amazing Red Wine</h2>
+                                <p>Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                                    Investigationes demonstraverunt lectores .</p>
+                                <div class="promo-btn">
+                                    <a href="shop-grid--fullwidth-three.html" class="theme-btn-outlined--primary-2">Discover now</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30 mb-lg-0">
+                <div class="promo-details-mini bg-pattern-2">
+                    <div class="promo-content">
+                        <div class="promo-icon">
+                            <img src="image/icons/icon-grape.png" alt="Promo Icon Image">
+                        </div>
+                        <div class="promo-description">
+                            <h2>Perfect White Wines</h2>
+                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
+                                litterarum formas humanitatis.</p>
+                            <div class="promo-btn">
+                                <a href="shop-grid--fullwidth-three.html" class="theme-btn-outlined--primary-2">Discover now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30 mb-lg-0">
+                <div class="promo-details-mini">
+                    <div class="promo-image">
+                        <img src="image/others/promo-product.jpg" alt="Promo Image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30 mb-lg-0">
+                <div class="promo-details-mini">
+                    <div class="promo-image">
+                        <img src="image/others/promo-product-2.jpg" alt="Promo Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Quick View Modal -->
+  
+<div class="modal modal-quick-view fade" id="quick-view" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="cross-btn">
+              <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="belly-product belly-product--details product-details--left-thumbnail">
+                    <div class="row">
+                        <div class="col-lg-5">
+                                
+                            <div class="product__image">
+                                <div class="product-image-main">
+                                    <img id="zoom_03" src="image/products/single-product/single-product-big-1.jpg"
+                                        data-zoom-image="image/products/single-product/single-product-big-1.jpg" />
+                                </div>
+                                <div id="product-view-gallary" class="product-view-slider product-view-standered-slider-2">
+
+                                    <a href="#" class="gallary-item" data-image="image/products/single-product/single-product-1.jpg"
+                                        data-zoom-image="image/products/single-product/single-product-big-1.jpg">
+                                        <img src="image/products/single-product/single-product-1.jpg" />
+                                    </a>
+
+                                    <a href="#" class="gallary-item" data-image="image/products/single-product/single-product-2.jpg"
+                                        data-zoom-image="image/products/single-product/single-product-big-2.jpg">
+                                        <img src="image/products/single-product/single-product-1.jpg" />
+                                    </a>
+
+                                    <a href="#" class="gallary-item" data-image="image/products/single-product/single-product-3.jpg"
+                                        data-zoom-image="image/products/single-product/single-product-big-3.jpg">
+                                        <img src="image/products/single-product/single-product-2.jpg" />
+                                    </a>
+
+                                    <a href="#" class="gallary-item" data-image="image/products/single-product/single-product-4.jpg"
+                                        data-zoom-image="image/products/single-product/single-product-big-4.jpg">
+                                        <img src="image/products/single-product/single-product-3.jpg" />
+                                    </a>
+                                    <a href="#" class="gallary-item" data-image="image/products/single-product/single-product-4.jpg"
+                                        data-zoom-image="image/products/single-product/single-product-big-4.jpg">
+                                        <img src="image/products/single-product/single-product-4.jpg" />
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+        
+                            <div class="product-description">
+                                <h3 class="product__caption">Accumsan Elit</h3>
+                                <div class="rating-widget">
+                                    <span class="single-rating"><i class="ion-md-star"></i></span>
+                                    <span class="single-rating"><i class="ion-md-star"></i></span>
+                                    <span class="single-rating"><i class="ion-md-star"></i></span>
+                                    <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                                    <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                                    <span>
+                                        <span class="rating-text"><a href="#"> 1 reviews </a> / <a href="#">Write a review</a></span>
+                                    </span>
+                                </div>
+                                <div class="product__price">
+                                    <span class="price--new">$350</span>
+                                </div>
+                                <div class="product-description--list">
+                                    <br>
+                                    <p>Ex Tax: $320.00</p>
+                                    <p>Reward Points: %s 400</p>
+                                    <br>
+                                    <p>Brands <a href="#" class="brand-tag text-primary">Hewlett-Packard</a></p>
+                                    <p>Product Code: <span class="text-primary">3</span> </p>
+                                    <p>Reward Points: <span class="text-primary">300</span></p>
+                                    <p>Availability: <span class="text-primary">In Stock</span></p>
+                                </div>
+                                <div class="product-description--breif">
+                                    <p>
+                                        Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate,
+                                        tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci
+                                        luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus
+                                        adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Class
+                                        aptent taciti sociosqu ad litora torquent per conubia nostra, p..
+                                    </p>
+                                </div>
+                                <div class="product-buttons--group ">
+                                    <div class="single-btn-block count-input-block">
+                                        <input type="number" class="form-control text-center" value="1">
+                                        <div class="count-input-btns">
+                                            <button class="inc-ammount count-btn">+</button>
+                                            <button class="dec-ammount count-btn">-</button>
+                                        </div>
+                                    </div>
+                                    <div class="single-btn-block">
+                                        <a href="wishlist.html" class="theme-btn-outlined">Add to wishlist</a>
+                                    </div>
+                                    <div class="single-btn-block">
+                                        <a href="compare.html" class="theme-btn-outlined">Add to Compare</a>
+                                    </div>
+                                    <div class="single-btn-block btn-big">
+                                        <a href="cart.html" class="theme-btn ">Add to Cart</a>
+                                    </div>
+                                    <div class="single-btn-block btn-big">
+                                        <ul class="social-btns">
+                                            <li><a href="#" class="facebook"><i class="far fa-thumbs-up"></i><span>likes 1</span></a></li>
+                                            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i> <span>twitter</span></a></li>
+                                            <li><a href="#" class="google"><i class="fas fa-plus-square"></i> <span>share</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<section class=" home-1__product--new section-padding space-db--30">
+    <div class="container">
+        <div class="section-title section-title-sep-1">
+            <h2>Recent Product</h2>
+            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum.</p>
+        </div>
+        <div class="product-slider mini-items-slider">
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-2.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-1.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Lusce Bliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-3.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-4.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Fusce Aliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-5.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-2.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Husce Jiquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-6.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-1.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Ysce Akiquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-7.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-3.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">gusce Aliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="dicover-area">
+    <div class="banner-content-wrapper banner-2">
+        <div class="banner-content bg-image text-white" data-bgimage="image/bg-images/home-1/welcome-bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h3 class="title--sm">CRAFTED BY OUR WINEMAKERS</h3>
+                        <h1 class="title--lg title-seperator--1 sep-left">Discover Our Wines - Belly Winery</h1>
+                        <p class="left-align">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>  
+                        <div class="banner_btn">
+                            <a href="shop-grid--fullwidth-three.html" class="theme-btn theme-btn-outlined--primary">Discover Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="product--recent section-padding space-db--30">
+    <div class="container">
+        <div class="section-title section-title-sep-1">
+            <h2>Mostviewed Product</h2>
+            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit litterarum.</p>
+        </div>
+        <div class="product-slider mini-items-slider">
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-2.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-1.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Bgsce Vliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-3.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-4.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Rsce Tiquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-5.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-2.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Gtyce Aliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-6.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-1.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" type="button" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Lsce Aliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__single-slide">
+                <div class="belly-product">
+                    <div class="product__image">
+                        <img src="image/products/home-1/product-7.jpg" alt="">
+                        <div class="hover-content">
+                            <a href="product-details.html" class="hover-image">
+                                <img src="image/products/home-1/product-3.jpg" alt="">
+                            </a>
+                            <div class="hover-btns">
+                                <a href="wishlist.html" class="single-btn"><i class="ion-md-heart-empty"></i></a>
+                                <a href="compare.html" class="single-btn"><i class="ion-md-options"></i></a>
+                                <a href="#" class="single-btn" role="button" class="btn btn-primary" data-toggle="modal" data-target="#quick-view"><i class="ion-md-open"></i></a>
+                            </div>
+                        </div>
+                        <span class="product-badge badge--sell-chocolate"></span>
+                    </div>
+                    <div class="product-description text-center">
+                        <h3 class="product__caption">
+                            <a href="product-details.html">Rusce Hliquam</a>
+                        </h3>
+                        <div class="rating-widget">
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-half"></i></span>
+                            <span class="single-rating"><i class="ion-md-star-outline"></i></span>
+                        </div>
+                        <div class="product__price">
+                            <span class="price--old">$150</span>
+                            <span class="price--new">$150</span>
+                        </div>   
+                        <div class="product__btn">
+                            <a href="cart.html" class="theme-btn-outlined">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding testimonial-section bg-image" data-bgimage="image/bg-images/home-1/bg-testimonial.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-6 col-md-8 offset-md-4">
+                <div class="testimonial-block testimonial-slider">
+                    <div class="single-block">
+                        <div class="section-title title-seperator--1">
+                            <h2 class="testimonial-title">What Clients Say?</h2>
+                        </div>
+                        <p> " When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome product. " ..</p>
+                        <div class="testimonial_client-profile">
+                            <div class="client-img">
+                                <img src="image/others/client-img-1.jpg" alt="">
+                            </div>
+                            <div class="client-details">
+                                <h6>Megdalena Valencia</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-block">
+                        <div class="section-title title-seperator--1">
+                            <h2 class="testimonial-title">What Clients Say?</h2>
+                        </div>
+                        <p> " When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome product. " ..</p>
+                        <div class="testimonial_client-profile">
+                            <div class="client-img">
+                                <img src="image/others/client-img-1.jpg" alt="">
+                            </div>
+                            <div class="client-details">
+                                <h6>Megdalena Valencia</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-block">
+                        <div class="section-title title-seperator--1">
+                            <h2 class="testimonial-title">What Clients Say?</h2>
+                        </div>
+                        <p> " When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome product. " ..</p>
+                        <div class="testimonial_client-profile">
+                            <div class="client-img">
+                                <img src="image/others/client-img-1.jpg" alt="">
+                            </div>
+                            <div class="client-details">
+                                <h6>Megdalena Valencia</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="home-blog section-padding space-db--30">
+    <div class="container">
+        <div class="section-title section-title-sep-1">
+            <h2>From Our Blog</h2>
+            <p>Update the latest article, to help customers capture the most authentic of the operation of the store.</p>
+        </div>
+        <div class="mini-blog-slider mini-items-slider">
+            <div class="single-blog">
+                <div class="belly-mini-blog">
+                    <a href="blog-details.html" class="blog-image">
+                        <img src="image/mini-item-images/mini-blog-1.png" alt="">
+                        <div class="blog-badge">
+                            <span>13</span>
+                            Aug
+                        </div>
+                    </a>
+                    <div class="blog-content">
+                        <h4 class="blog-title"><a href="blog-details.html"> Net Bypi habent claritatem </a></h4>
+                        <span class="blog-subtitle">Belly</span>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                        <div class="blog-btn">
+                            <a href="blog-details.html" class="theme-btn-outlined theme-btn-outlined">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-blog">
+                <div class="belly-mini-blog">
+                    <a href="blog-details.html" class="blog-image">
+                        <img src="image/mini-item-images/mini-blog-2.png" alt="">
+                        <div class="blog-badge">
+                            <span>14</span>
+                           feb
+                        </div>
+                    </a>
+                    <div class="blog-content">
+                        <h4 class="blog-title"><a href="blog-details.html"> Bypi velit  non habent</a></h4>
+                        <span class="blog-subtitle">Belly</span>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                        <div class="blog-btn">
+                            <a href="blog-details.html" class="theme-btn-outlined theme-btn-outlined">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-blog">
+                <div class="belly-mini-blog">
+                    <a href="blog-details.html" class="blog-image">
+                        <img src="image/mini-item-images/mini-blog-3.png" alt="">
+                        <div class="blog-badge">
+                            <span>19</span>
+                            jan
+                        </div>
+                    </a>
+                    <div class="blog-content">
+                        <h4 class="blog-title"><a href="blog-details.html">hendrerit in vulputate</a></h4>
+                        <span class="blog-subtitle">Belly</span>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                        <div class="blog-btn">
+                            <a href="blog-details.html" class="theme-btn-outlined theme-btn-outlined">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-blog">
+                <div class="belly-mini-blog">
+                    <a href="blog-details.html" class="blog-image">
+                        <img src="image/mini-item-images/mini-blog-4.png" alt="">
+                        <div class="blog-badge">
+                            <span>21</span>
+                            sep
+                        </div>
+                    </a>
+                    <div class="blog-content">
+                        <h4 class="blog-title"><a href="blog-details.html">vulputate velit esse </a></h4>
+                        <span class="blog-subtitle">Belly</span>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                        <div class="blog-btn">
+                            <a href="blog-details.html" class="theme-btn-outlined theme-btn-outlined">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+  <!-- Site Bottom Starts -->
+  <div class="site-bottom">
+    <section class="newsletter-area py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="newsletter-details">
+                        <h3>Join Our Newsletter Now </h3>
+                        <h6>Get E-mail updates about our latest shop and special offers.</h6>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="subscription-form form-inline">
+                        <input type="text" class="form-control" placeholder="Enter you email address here...">
+                        <button class="theme-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer Starts -->
+  <footer class="site-footer">
+      <div class="container">
+        <!-- Footer Inner Starts -->
+          <div class="footer-inner ">
+            <div class="row">
+                <div class="col-lg-4  col-md-8 mb-30 mb-lg-0">
+                  <!-- Single Footer -->
+                  <div class="single-footer">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <div class="single-footer__details">
+                      <div class="contact-widget widget-phone">
+                        <div class="widget-logo">
+                          <img src="image/icons/icon-phone--chocolate.png" alt="">
+                        </div>
+                        <span class="widget-text">+ (012) 800 456 789</span>
+                      </div>
+                      <div class="contact-block">
+                          <p>Address:123 Main Street, Anytown, CA 12345 - USA.</p>
+                          <p>Email:demo@towerthemes.com</p>
+                      </div>
+                      <div class="social-links links-rounded-bg">
+                        <a href="#" class="single-social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="single-social"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="single-social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="single-social"><i class="fas fa-rss"></i></a>
+                        <a href="#" class="single-social"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="single-social"><i class="fab fa-youtube"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-30 mb-lg-0">
+                  <!-- Single Footer -->
+                  <div class="single-footer">
+                      <h3 class="footer-title">Information</h3>
+                    <ul class="footer-list">
+                      <li><a href="#">
+                      About Us</a></li>
+                      <li><a href="#">Delivery Information</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms & Conditions</a></li>
+                      <li><a href="#">Brands</a></li>
+                      <li><a href="#">Gift Certificates</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-30 mb-lg-0">
+                  <div class="single-footer">
+                      <h3 class="footer-title">My Account</h3>
+                    <ul class="footer-list">
+                      <li><a href="#">My Account</a></li>
+                      <li><a href="#">Order History</a></li>
+                      <li><a href="#">Wish List</a></li>
+                      <li><a href="#">Newsletter</a></li>
+                      <li><a href="#">Affiliate</a></li>
+                      <li><a href="#">Specials</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-8 mb-30 mb-lg-0">
+                  <!-- Single Footer / Instagram Block-->
+                  <div class="single-footer">
+                      <h3 class="footer-title">Photo Instagram</h3>
+                      <div class="instagram-photos">
+        <a href="#" class="single-image">
+          <img src="image/others/insta-photos.jpg" alt="">
+        </a>
+        <a href="#" class="single-image">
+          <img src="image/others/insta-photos-1.jpg" alt="">
+        </a>
+        <a href="#" class="single-image">
+          <img src="image/others/insta-photos-2.jpg" alt="">
+        </a>
+        <a href="#" class="single-image">
+          <img src="image/others/insta-photos-3.jpg" alt="">
+        </a>
+        <a href="#" class="single-image">
+          <img src="image/others/insta-photos-4.jpg" alt="">
+        </a>
+        <a href="#" class="single-image">
+          <img src="image/others/insta-photos-5.jpg" alt="">
+        </a>
+      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <!-- Footer Inner Starts -->
+          <!-- Footer Feautures -->
+          <div class="features footer-features">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6 mb-30 mb-lg-0">
+                <div class="mini-feature">
+                  <div class="feature-icon icon-round">
+                      <i class="fas fa-globe-americas"></i>
+                  </div>
+                  <div class="feature-text">
+                      <h3>Free Shipping</h3>
+                      <p>Free shipping on all order</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-30 mb-lg-0">
+                <div class="mini-feature">
+                  <div class="feature-icon icon-round">
+                      <i class="far fa-check-circle"></i>
+                  </div>
+                  <div class="feature-text">
+                      <h3>Money Return</h3>
+                      <p>Back guarantee under 7 days</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-30 mb-lg-0">
+                <div class="mini-feature">
+                  <div class="feature-icon icon-round">
+                      <i class="fas fa-bell"></i>
+                  </div>
+                  <div class="feature-text">
+                      <h3>Member Discount</h3>
+                      <p>Onevery order over $120.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-30 mb-lg-0">
+                <div class="mini-feature">
+                  <div class="feature-icon">
+                      <i class="far fa-clock"></i>
+                  </div>
+                  <div class="feature-text">
+                      <h3>Online Support</h3>
+                      <p>Support online 24 hours a day</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- Copyright Area -->
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row align-items-md-center">
+            <div class="col-lg-6 col-md-6">
+              <p>Copyright &copy; 2018 <a href="#" class="company-link">Belly</a>. All Right Reserved.</p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="payment-cards text-lg-right">
+                <a href="#" class="single-card"><img src="image/icons/paypal.jpg" alt=""></a>
+                <a href="#" class="single-card"><img src="image/icons/paypal1.jpg" alt=""></a>
+                <a href="#" class="single-card"><img src="image/icons/discover.jpg" alt=""></a>
+                <a href="#" class="single-card"><img src="image/icons/mastercard.jpg" alt=""></a>
+                <a href="#" class="single-card"><img src="image/icons/mastercard-2.jpg" alt=""></a>
+                <a href="#" class="single-card"><img src="image/icons/amarican-express.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+    </div>
+    <!-- Site Footer Ends -->
+  </div>
+{% endblock %}

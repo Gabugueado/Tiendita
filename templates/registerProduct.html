@@ -1,0 +1,57 @@
+{% extends "base/base.html" %}
+{% block title %}
+Registro de productos
+{% endblock %}
+{% block body %}
+{% include "base/header.html" %}
+<div class="site-wrapper belly-homepage--default">
+    <!-- Quick View Modal -->
+    <div class="belly-bredcrumb-section">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Registro Producto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-section checkout-area checkout-area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Checkout Form s-->
+                    <form action="" class="checkout-form" method="POST">
+                        {% csrf_token %}
+                        <div class="d-flex justify-content-center row-40">
+                            <div class="col-lg-6 mb--20">
+                                <!-- Billing Address -->
+                                <div id="billing-form" class="mb-40">
+                                    <h4 class="checkout-title text-center">Registro de producto</h4>
+                                    <div class="row">
+                                        <div class="col-md-12 col-12 mb--20">
+                                            <label for="nombre">Nombre: </label>
+                                            <input id="nombre" type="text" name="nombre" maxlength="100" placeholder="Nombre" required >
+                                        </div>
+                                        <div class="col-md-12 col-12 mb--20">
+                                            <label for="description">Descripcion: </label>
+                                            <input id="description" type="text" name="description" maxlength="100" placeholder="Descripcion" required >
+                                        </div>
+                                        <div class="col-md-12 col-12 mb--20">
+                                            <label for="precio">Precio: </label>
+                                            <input id="precio" type="text" name="precio" maxlength="100" placeholder="Precio" required >
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <button class="place-order" type="submit">Enviar</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
