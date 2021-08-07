@@ -5,27 +5,25 @@ from django.utils.translation import gettext_lazy as _
 class ProductoForm(ModelForm):
     class Meta:
         model = Producto
-        fields = ('nombre', 'description', 'precio')
+        fields = ('nombre', 'descripcion', 'precio')
         labels = {
             'nombre': _('Nombre'),
-            'description': _('Descripcion'),
+            'descripcion': _('Descripcion'),
             'precio': _('Precio'),
         }
         help_texts = {
             'nombre': _('Nombre del producto y modelo.'),
-            'description': _('Una descripcion detallada de no mas de 252 caracteres'),
+            'descripcion': _('Una descripcion detallada de no mas de 252 caracteres'),
             'precio': _('Favor no exageres tu precio'),
         }
         error_messages = {
             'nombre': {
                 'max_length': _("nombre demasiado largo!!."),
             },
-            'description': {
+            'descripcion': {
                 'max_length': _("descripcion demasiada largo!!."),
             },
             'precio': {
                 'max_length': _("precio demasiado largo!!."),
             }
         }
-       
-    
